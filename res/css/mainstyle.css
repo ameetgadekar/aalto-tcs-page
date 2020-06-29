@@ -21,8 +21,21 @@ p,li {
 }
 
 
+h1{box-shadow: 0px 4px 8px grey;}
 h2{border-bottom:solid black 1px;}
 
 .course-name {
 	font-style:italic;
+}
+
+div.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+h2:hover {
+    border: 2px solid #dd;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 1px rgba(113,178,189, 0.5);
+    transition: all 200ms ease-out;
 }
